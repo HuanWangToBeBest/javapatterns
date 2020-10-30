@@ -1,7 +1,7 @@
-package com.pattern.productorconsumer;
+package com.pattern.productorconsumer.lock;
 
 /**
- * 生产者 消费者 模式
+ * lock 实现 生产者 消费者 模式
  */
 public class ProductAndConsumerPattern {
 

@@ -1,4 +1,4 @@
-package com.pattern.productorconsumer;
+package com.pattern.productorconsumer.lock;
 
 /**
  * 消费者
