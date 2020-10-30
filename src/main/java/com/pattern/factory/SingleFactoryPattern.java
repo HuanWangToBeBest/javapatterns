@@ -1,5 +1,7 @@
 package com.pattern.factory;
 
+import java.util.Objects;
+
 /**
  * 简单工厂
  */
@@ -9,7 +11,9 @@ public class SingleFactoryPattern {
         int productType = 0;
         System.out.println("============");
         Product product = SimpleFactory.makeProduct(productType);
-        product.show();
+        if (Objects.nonNull(product)){
+            product.show();
+        }
         System.out.println("============");
     }
 
